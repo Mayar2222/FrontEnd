@@ -1,0 +1,17 @@
+import React from 'react'
+import { FcBullish } from 'react-icons/fc'
+
+export default function Sidebar() {
+  return (
+    <div className='bg-neutral-900 w-60 p-3 flex flex-col text-white' >
+        <div className='flex'>
+            <FcBullish/>
+            <span>Logistics</span>
+
+        </div>
+    <div>bottom part</div>
+
+
+    </div>
+  )
+}

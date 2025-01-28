@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@400; 600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@Layer base { html {
+
+font-family: 'Inter', sans-serif;
+line-height: 1.3;}
+table {
+
+}
+th,
+td {
+
+@apply py-3 px-2.5 text-sm text-left border-y border-gray-200;}
+thead {
+}
+th {
+}
+a {
+@apply bg-neutral-100;
+@apply font-semibold;
+@apply text-sky-500 hover: underline;
+}
